@@ -61,7 +61,7 @@ if game.PlaceId == 8343259840 then
 
 		function JoinDiscord()  
 			-- setclipboard("https://discord.gg/vwxGwSn8bT")
-			StarterGui:SetCore("SendNotification", {Title = Version; Text = "Thank for choosing GoonerWare. For support, Kill yourself!"; Icon = "rbxassetid://10139715663"; Duration = 30 })
+			StarterGui:SetCore("SendNotification", {Title = Version; Text = "Thank for choosing GoonerWare. For support, Kill yourself!"; Icon = "rbxassetid://10533237406"; Duration = 30 })
 		end
 
 		function BypassAnticheat()
@@ -642,25 +642,25 @@ if game.PlaceId == 8343259840 then
 
 		game.Players.PlayerAdded:Connect(function(AdminUserCheck)
 			if AdminUserCheck.UserId == 68246168 or AdminUserCheck.UserId == 955294 or AdminUserCheck.UserId == 1095419 or AdminUserCheck.UserId == 50585425 or AdminUserCheck.UserId == 48405917 or AdminUserCheck.UserId == 9212846 or AdminUserCheck.UserId == 47352513 or AdminUserCheck.UserId == 48058122 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Mod Alert\n"..AdminUserCheck.Name..", Is in the server."; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Mod Alert\n"..AdminUserCheck.Name..", Is in the server."; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			elseif AdminUserCheck.UserId == 42066711 or AdminUserCheck.UserId == 513615792 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Contractors Alert\n"..AdminUserCheck.Name..", Is in the server"; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Contractors Alert\n"..AdminUserCheck.Name..", Is in the server"; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			elseif AdminUserCheck.UserId == 151691292 or AdminUserCheck.UserId == 92504899 or AdminUserCheck.UserId == 31967243 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Devs Alert\n"..AdminUserCheck.Name..", Is in the server."; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Devs Alert\n"..AdminUserCheck.Name..", Is in the server."; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			elseif AdminUserCheck.UserId == 29761878 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Owner Alert\nRvvz, Is in the server."; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Owner Alert\nRvvz, Is in the server."; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			end
 		end)
 
 		for i, v in pairs(game.Players:GetPlayers()) do
 			if v.UserId == 68246168 or v.UserId == 955294 or v.UserId == 1095419 or v.UserId == 50585425 or v.UserId == 48405917 or v.UserId == 9212846 or v.UserId == 47352513 or v.UserId == 48058122 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Mod Alert\n"..v.Name..", Is in the server."; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Mod Alert\n"..v.Name..", Is in the server."; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			elseif v.UserId == 42066711 or v.UserId == 513615792 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Contractors Alert\n"..v.Name..", Is in the server"; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Contractors Alert\n"..v.Name..", Is in the server"; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			elseif v.UserId == 151691292 or v.UserId == 92504899 or v.UserId == 31967243 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Devs Alert\n"..v.Name..", Is in the server."; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Devs Alert\n"..v.Name..", Is in the server."; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			elseif v.UserId == 29761878 then
-				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Owner Alert\nRvvz, Is in the server."; Icon = "rbxassetid://10139715663"; Duration = 120 })
+				StarterGui:SetCore("SendNotification", {Title = "GoonerWare"; Text = "Owner Alert\nRvvz, Is in the server."; Icon = "rbxassetid://10533237406"; Duration = 120 })
 			end
 		end
 		-- #endregion
